@@ -93,6 +93,7 @@ Refer to following files for details:
 - [LICENSE.txt](./LICENSE.txt) (the CDDL)
 - [LICENSE-CPIO](./LICENSE-CPIO) (applies to [src/modules/cpiofile.py](src/modules/cpiofile.py))
 - [LICENSE-MINISAT](./LICENSE-MINISAT) (applies to [src/modules/solver/\*](src/modules/solver/))
+- [LICENSE-PLY](./LICENSE-PLY) (applies to [src/modules/ply/\*](src/modules/ply/))
 
 ## Documentation
 
