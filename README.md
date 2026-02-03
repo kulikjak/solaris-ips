@@ -89,10 +89,10 @@ Copyright (c) 2010, 2026, Oracle and/or its affiliates.
 
 The Image Packaging System is primarily distributed under the terms of the CDDL (Common Development and Distribution License), with a few portions covered by BSD-style or MIT-style licenses.
 
-Refer to [LICENSE.txt](./LICENSE.txt) (the CDDL),
-[LICENSE-CPIO](./LICENSE-CPIO) (applies to src/modules/cpiofile.py),
-and [LICENSE-MINISAT](./LICENSE-MINISAT) (applies to src/modules/solver/\*)
-for details.
+Refer to following files for details:
+- [LICENSE.txt](./LICENSE.txt) (the CDDL)
+- [LICENSE-CPIO](./LICENSE-CPIO) (applies to [src/modules/cpiofile.py](src/modules/cpiofile.py))
+- [LICENSE-MINISAT](./LICENSE-MINISAT) (applies to [src/modules/solver/\*](src/modules/solver/))
 
 ## Documentation
 
