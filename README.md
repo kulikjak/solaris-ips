@@ -85,13 +85,13 @@ security vulnerability reporting and disclosure process.
 
 ## License
 
-Copyright (c) 2010, 2024, Oracle and/or its affiliates.
+Copyright (c) 2010, 2026, Oracle and/or its affiliates.
 
 The Image Packaging System is primarily distributed under the terms of the CDDL (Common Development and Distribution License), with a few portions covered by BSD-style or MIT-style licenses.
 
 Refer to [LICENSE.txt](./LICENSE.txt) (the CDDL),
 [LICENSE-CPIO](./LICENSE-CPIO) (applies to src/modules/cpiofile.py),
-and [LICENSE-MINISAT](./LICENSE-MINISAT) (applies to src/modules/solver/*)
+and [LICENSE-MINISAT](./LICENSE-MINISAT) (applies to src/modules/solver/\*)
 for details.
 
 ## Documentation
