@@ -59,7 +59,7 @@ elf.cpython-%.so: elf.c elfextract.c liblist.c
 	$(GCC) $^ $(PYTHONCFLAGS) -I. -lelf -lmd $(PYTHONLDFLAGS) -o $@
 
 solver.cpython-%.so: solver/solver.c solver/py_solver.c
-	$(GCC) $^ -D_FILE_OFFSET_BITS=64 -Wno-return-type -Wno-strict-aliasing -Wno-unused-function -Wno-unused-variable $(PYTHONCFLAGS) -ztext -lm -lc $(PYTHONLDFLAGS) -o $@
+	$(GCC) $^ -D_FILE_OFFSET_BITS=64 $(PYTHONCFLAGS) -Wno-strict-aliasing -Wno-unused-function -ztext -lm -lc $(PYTHONLDFLAGS) -o $@
 
 # PRIVATE_BUILD set in the environment tells us to not strip
 # the prefix of proto area paths recorded in the .pyc files.
